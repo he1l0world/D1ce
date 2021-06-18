@@ -18,6 +18,10 @@
 		A83CB67726132D280061189F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83CB67626132D280061189F /* HomeView.swift */; };
 		A83CB67A261332450061189F /* DiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83CB679261332450061189F /* DiceController.swift */; };
 		A83CB68F261517990061189F /* dice_sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A83CB68E261517980061189F /* dice_sound.m4a */; };
+		A86E8A32265511D3001DB045 /* ContributorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86E8A31265511D3001DB045 /* ContributorView.swift */; };
+		A86E8A33265516A9001DB045 /* Bulgatti-xgMV.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A86E8A3026551083001DB045 /* Bulgatti-xgMV.ttf */; };
+		A8D3AECA267C4D0B009E9D4F /* ANDTIOHOne.otf in Resources */ = {isa = PBXBuildFile; fileRef = A8D3AEC9267C4D0B009E9D4F /* ANDTIOHOne.otf */; };
+		A8D3AECC267C4F4B009E9D4F /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3AECB267C4F4B009E9D4F /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		A83CB67626132D280061189F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A83CB679261332450061189F /* DiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceController.swift; sourceTree = "<group>"; };
 		A83CB68E261517980061189F /* dice_sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dice_sound.m4a; sourceTree = "<group>"; };
+		A86E8A3026551083001DB045 /* Bulgatti-xgMV.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bulgatti-xgMV.ttf"; sourceTree = "<group>"; };
+		A86E8A31265511D3001DB045 /* ContributorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorView.swift; sourceTree = "<group>"; };
+		A8D3AEC9267C4D0B009E9D4F /* ANDTIOHOne.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ANDTIOHOne.otf; path = "../../../Butterfli Resources/ANDTIOHOne.otf"; sourceTree = "<group>"; };
+		A8D3AECB267C4F4B009E9D4F /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +74,16 @@
 		A83CB65A26132B430061189F /* D1ce */ = {
 			isa = PBXGroup;
 			children = (
+				A8D3AECB267C4F4B009E9D4F /* Extentions.swift */,
+				A8D3AEC9267C4D0B009E9D4F /* ANDTIOHOne.otf */,
+				A86E8A3026551083001DB045 /* Bulgatti-xgMV.ttf */,
 				A83CB68E261517980061189F /* dice_sound.m4a */,
 				A83CB65B26132B430061189F /* D1ceApp.swift */,
 				A83CB65D26132B430061189F /* ContentView.swift */,
 				A83CB67026132BB70061189F /* DiceModel.swift */,
 				A83CB67326132BC00061189F /* DiceView.swift */,
 				A83CB67626132D280061189F /* HomeView.swift */,
+				A86E8A31265511D3001DB045 /* ContributorView.swift */,
 				A83CB679261332450061189F /* DiceController.swift */,
 				A83CB65F26132B460061189F /* Assets.xcassets */,
 				A83CB66426132B460061189F /* Persistence.swift */,
@@ -147,6 +159,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D3AECA267C4D0B009E9D4F /* ANDTIOHOne.otf in Resources */,
+				A86E8A33265516A9001DB045 /* Bulgatti-xgMV.ttf in Resources */,
 				A83CB68F261517990061189F /* dice_sound.m4a in Resources */,
 				A83CB66326132B460061189F /* Preview Assets.xcassets in Resources */,
 				A83CB66026132B460061189F /* Assets.xcassets in Resources */,
@@ -162,9 +176,11 @@
 			files = (
 				A83CB67A261332450061189F /* DiceController.swift in Sources */,
 				A83CB66526132B460061189F /* Persistence.swift in Sources */,
+				A8D3AECC267C4F4B009E9D4F /* Extentions.swift in Sources */,
 				A83CB67726132D280061189F /* HomeView.swift in Sources */,
 				A83CB67426132BC00061189F /* DiceView.swift in Sources */,
 				A83CB65E26132B430061189F /* ContentView.swift in Sources */,
+				A86E8A32265511D3001DB045 /* ContributorView.swift in Sources */,
 				A83CB66826132B460061189F /* D1ce.xcdatamodeld in Sources */,
 				A83CB65C26132B430061189F /* D1ceApp.swift in Sources */,
 				A83CB67126132BB70061189F /* DiceModel.swift in Sources */,
@@ -297,7 +313,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"D1ce/Preview Content\"";
-				DEVELOPMENT_TEAM = GVGBXJ9KUJ;
+				DEVELOPMENT_TEAM = 87GTDC5R5P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = D1ce/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -319,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"D1ce/Preview Content\"";
-				DEVELOPMENT_TEAM = GVGBXJ9KUJ;
+				DEVELOPMENT_TEAM = 87GTDC5R5P;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = D1ce/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

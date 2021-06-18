@@ -42,6 +42,13 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Bulgatti-xgMV.ttf</string>
+		<string>ANDTIOHOne.otf</string>
+	</array>
+	<key>ATSApplicationFontsPath</key>
+	<string></string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
